@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <li>Vybez Music</li>
+            </a>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h1>Sign up to start <br>listening</h1>
+            <div class="signup-box-container">
+                <form action="">
+                    <label for="">Email address</label>
+                    <input type="text" placeholder="Email or username" id="username" required>
+                    <label for="">Password</label>
+                    <input type="password" placeholder="Password" id="password" required>
+                    <span class="hide"><img src="images/logo/eye.png" alt="" id="eyeIcon"></span>
+                    <p>username : listen <span> and password : abcd@123</span></p>
+
+                    <button type="submit" id="signBtn" onclick="listfunc()">Sign up</button>
+                </form>
+            </div>
+
+            <hr>
+
+            <div class="last">
+                <span>Already have an account?</span>
+                <a href="login.html">Login here.</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script>
+        let eyeIcon = document.getElementById("eyeIcon");
+        let password = document.getElementById("password");
+
+        eyeIcon.onclick = function(){
+            if(password.type == "password"){
+                password.type = "text";
+                eyeIcon.src = "images/logo/eye1.png"
+            }else{
+                password.type = "password";
+                eyeIcon.src = "images/logo/eye.png"
+            }
+        }
+
+        function listfunc(){
+            var email = document.getElementById("username").value;
+            var pass = document.getElementById("password").value;
+            if (email == "listen" && pass == "abcd@123"){
+                window.open("index.html");
+            } else{
+                alert("Invalid!");
+                return;
+            }
+        }
+
+    </script>
+    
+</body>
+</html>

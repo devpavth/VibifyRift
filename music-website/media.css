@@ -1,0 +1,536 @@
+
+
+
+@media (max-width:1200px){
+    header nav ul li{
+        font-size: 1.5rem;
+        margin-left: 4rem;
+    }
+    header nav .search{
+        width: 22%;
+        margin-right: -18rem;
+    }
+    header nav .login-user a li{
+        margin-left: 2rem;
+    }
+    .bottom img{
+        width: 3rem;
+        height: 3rem;
+        margin: 1rem 1rem;
+    }
+    section .Popular-songs .pop-song li{
+        min-width: 190px;
+    }
+    section .popularArtists .Singers li{
+        min-width: 190px;
+    }
+    .webLinks{
+        margin-left: -15rem;
+    }
+    footer hr{
+        width: 118%;
+        margin-top: 1.5rem;
+        margin-right: -17rem;
+    }
+    .belowLinks .otherLinks{
+        margin-left: -63rem;
+    }
+    .copyright p{
+        margin-left: 27rem;
+    }
+    .xIcons{
+        position: fixed;
+        margin-left: 18rem;
+    }
+    .bottom .xIcons .icons{
+        margin-left: 12rem;
+        margin-bottom: 15px;
+    }
+    .progress-area{
+        width: 120%;
+        margin-left: 80px;
+        margin-bottom: 11px;
+    }
+    .volume-slider{
+        margin-right: 5em;
+    }
+    .bottom h5{
+        width: 105px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .bottom h5 .subtitle{
+        width: 105px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    /* ----------------anirudh html page---------------------- */
+    .menuSong li h5 .listener{
+        position: absolute;
+        right: 330px;
+    }
+    .menuSong li h5 .timestamp{
+        position: absolute;
+        right: 50px;
+    }
+    .menuSong li .fa-heart{
+        position: absolute;
+        top: 11px;
+        right: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+    header nav ul li{
+        font-size: 1.5rem;
+        margin-left: 3rem;
+    }
+    header nav .search{
+        width: 20%;
+        margin-right: -14rem;
+    }
+    header nav .login-user a li{
+        margin-left: 1rem;
+    }
+    header nav .search input{
+        font-size: 0.9rem;
+    }
+    header nav .login-user a{
+        font-size: 0.9rem;
+    }
+    header nav .login-user button{
+        font-size: 0.9rem;
+    }
+    header nav .login-user button:hover{
+        transform: scale(1.0);
+    }
+    section .Popular-songs .pop-song li{
+        min-width: 200px;
+    }
+    section .popularArtists .Singers li{
+        min-width: 200px;
+    }
+    .webLinks{
+        margin-left: -3rem;
+    }
+    footer hr{
+        width: 123%;
+        margin-top: 1.5rem;
+        margin-right: -17rem;
+    }
+    .belowLinks .otherLinks{
+        margin-left: -50rem;
+    }
+    .copyright p{
+        margin-left: 13rem;
+    }
+    .xIcons{
+        position: fixed;
+        margin-left: 17rem;
+    }
+    .bottom .xIcons .icons{
+        margin-left: 6rem;
+        margin-bottom: 15px;
+    }
+    .progress-area{
+        width: 130%;
+        margin-left: 17px;
+        margin-bottom: 11px;
+    }
+    .volume-slider{
+        margin-right: 5em;
+        max-width: 10em;
+    }
+    .bottom h5{
+        width: 105px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .bottom h5 .subtitle{
+        width: 105px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .music-list{
+        width: 30rem;
+    }
+    .music-list li h5{
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    /* anirudh html page */
+    .menuSong li h5 .listener{
+        position: absolute;
+        right: 280px;
+    }
+    .menuSong li h5 .timestamp{
+        position: absolute;
+        right: 50px;
+    }
+    .menuSong li .fa-heart{
+        position: absolute;
+        top: 11px;
+        right: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    header nav ul li{
+        font-size: 1.5rem;
+        margin-left: 2.5rem;
+    }
+    header nav .search{
+        width: 20%;
+        margin-right: -9rem;
+    }
+    header nav .login-user a li{
+        margin-left: 0.8rem;
+    }
+    header nav .search input{
+        font-size: 0.9rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        padding: 1px 0px 0 9px;
+    }
+    header nav .search i{
+        font-size: 1rem;
+        padding: 3px 0 0 2px;
+    }
+    header nav .login-user a{
+        font-size: 0.9rem;
+    }
+    header nav .login-user button{
+        font-size: 0.9rem;
+        margin-left: 0.8rem;
+    }
+    header nav .login-user button:hover{
+        transform: scale(1.0);
+    }
+    .webLinks{
+        display: flex;
+        margin-left: 3rem;
+        flex-wrap: wrap;
+    }
+    .webLinks .company{
+        margin-bottom: 25px;
+    }
+    .webLinks .communities{
+        margin-bottom: 25px;
+    }
+    .webLinks .Useful-links{
+        margin-bottom: 25px;
+    }
+    footer hr{
+        width: 136%;
+        margin-top: 1.5rem;
+        margin-right: -17rem;
+    }
+    .belowLinks .otherLinks{
+        margin-left: -37rem;
+    }
+    .copyright p{
+        margin-left: 2rem;
+    }
+    .xIcons{
+        position: fixed;
+        margin-left: 13rem;
+    }
+    .bottom .xIcons .icons{
+        margin-left: 4rem;
+        margin-bottom: 15px;
+    }
+    .progress-area{
+        width: 120%;
+        margin-left: 17px;
+        margin-bottom: 11px;
+    }
+    .volume-slider{
+        margin-right: 2em;
+        max-width: 8em;
+    }
+    .bottom i{
+        margin-left: 0.3rem;
+    }
+    .bottom h5{
+        width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .bottom h5 .subtitle{
+        width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .music-list{
+        width: 25rem;
+    }
+    .music-list li h5{
+        width: 200px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    /* anirudh html page */
+    .menuSong li h5 .listener{
+        position: absolute;
+        right: 200px;
+    }
+    .menuSong li h5 .timestamp{
+        position: absolute;
+        right: 50px;
+    }
+    .menuSong li .fa-heart{
+        position: absolute;
+        top: 11px;
+        right: 100px;
+    }
+    .menuSong li h5{
+        width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:450px){
+    header nav{
+        height: 70px;
+    }
+    header nav ul li{
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-left: 1.5rem;
+    }
+    header nav .search i{
+        font-size: 1rem;
+        padding: 3px 0 0 1px;
+    }
+    header nav .login-user a li{
+        margin-left: 0.2rem;
+    }
+    header nav .login-user a{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    header nav .login-user button{
+        font-size: 0.8rem;
+        padding: 8px 15px;
+        border-radius: 30px;
+        margin-left: 0.1rem;
+        margin-right: 0.8rem;
+    }
+    .bottom img{
+        width: 2.2rem;
+        height: 2.2rem;
+        margin: 1rem 0.7rem;
+    }
+    section .Popular-songs .pop-song li{
+        min-width: 190px;
+    }
+    section .popularArtists .Singers li{
+        min-width: 190px;
+    }
+    .webLinks{
+        display: flex;
+        margin-left: 2rem;
+        flex-wrap: wrap;
+    }
+    .webLinks .company{
+        margin-bottom: 25px;
+    }
+    .webLinks .communities{
+        margin-bottom: 25px;
+    }
+    .webLinks .Useful-links{
+        margin-bottom: 25px;
+    }
+    .socialLinks{
+        display: flex;
+        margin-right: 1rem;
+    }
+    footer hr{
+        width: 160%;
+        margin-top: 1.5rem;
+        margin-right: -13rem;
+    }
+    .belowLinks .otherLinks{
+        margin-left: -13.8rem;
+        word-wrap: break-word;
+    }
+    .copyright p{
+        margin-top: 40px;
+        margin-left: -28rem;
+        margin-right: 24.6rem;
+        word-wrap: break-word;
+        margin-bottom: 30px;
+    }
+    .xIcons{
+        position: fixed;
+        margin-left: 8.6rem;
+    }
+    .bottom .xIcons .icons{
+        margin-left: 4rem;
+        margin-bottom: 15px;
+        position: absolute;
+        top:-79px;
+        right: 0%;
+        left: 1%;
+    }
+    .bottom .xIcons .icons::before{
+        content: '';
+        position: absolute;
+        width: 260px;
+        height: 100px;
+        background: black;
+        z-index: -1;
+        border-radius: 50% 50% 0% 0%;
+        margin-left: 35px;
+        box-shadow: 0px -11px 20px -17px #ddd;
+    }
+    .bottom i{
+        font-size: 1rem;
+        margin-left: 0.2rem;
+    }
+    .volume-icon span{
+        font-size: 2em;
+        padding-top: 0.2em;
+    }
+    .slider{
+        height: 0.3em;
+        margin-top: 3px;
+    }
+    .progress{
+        height: 0.32em;
+        margin-top: 2px;
+    }
+    .progress-area{
+        position: fixed;
+        width: 40%;
+        margin-left: -5px;
+        margin-bottom: 11px;
+    }
+    .volume-slider{
+        margin-right: 0.9em;
+        max-width: 7em;
+    }
+    .music-list{
+        position: absolute;
+        bottom: 28%;
+        width: 25rem;
+    }
+    .bottom h5{
+        width: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .bottom h5 .subtitle{
+        width: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    #s-btn{
+        display: inline-block;
+    }
+    header nav .search {
+        position: absolute;
+        top: 9.5%;
+        right: 36%;
+        width: 15rem;
+        height: 2.5rem;
+        display: flex;
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+    header nav .search.active{
+        transform: scaleY(1);
+    }
+    header nav .search input{
+        width: 100%;
+        height: 100%;
+        text-transform: none;
+    }
+    /* ----------------anirudh html page---------------------- */
+    .container h1{
+        font-size: 3.5rem;
+        margin-left:20px;
+        margin-top: 236px;
+    }
+    .container{
+        width: 100%;
+        min-height: 450px;
+    }
+    .menuSong li h5 .listener{
+        position: absolute;
+        right: -100px;
+    }
+    .menuSong li h5 .timestamp{
+        position: absolute;
+        right: 20px;
+    }
+    .menuSong li .fa-heart{
+        position: absolute;
+        top: 11px;
+        right: 60px;
+    }
+    .menuSong li h5{
+        width: 170px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .bottom h5{
+        font-size: 0.7rem;
+        font-weight: 400;
+        width: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .bottom h5 .subtitle{
+        font-size: 0.5rem;
+        width: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+
+
+
+
+
+
+

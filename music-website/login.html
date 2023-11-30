@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <li>Vybez Music</li>
+            </a>
+        </div>
+    </header>
+
+    <section>
+        <div class="main">
+            <h1>Log in to Vybez</h1>
+            <div class="account-connect">
+                <button class="acc-btn" id="g"><img src="images/logo/google.png" alt="">
+                    <span>Continue with Google</span>
+                </button>
+                <button class="acc-btn" id="f"><img src="images/logo/facebook.png" alt="">
+                    <span>Continue with Facebook</span>
+                </button>
+                <button class="acc-btn" id="a"><img src="images/logo/apple.png" alt="">
+                    <span>Continue with Apple</span>
+                </button>
+                <button class="acc-btn" id="ph">
+                    <span>Continue with phone number</span>
+                </button>
+            </div>
+
+            <hr>
+
+            <div class="login-box-container">
+                <form action="">
+                    <label for="">Email or username</label>
+                    <input type="text" placeholder="Email or username">
+                    <label for="">Password</label>
+                    <input type="password" placeholder="Password" id="password">
+                    <span class="hide"><img src="images/logo/eye.png" alt="" id="eyeIcon"></span>
+
+
+                    <div class="switch">
+                        <input type="checkbox" id="switch" checked>
+                        <label for="switch"></label>
+                        <span>Remember me</span>
+                    </div>
+                    <button>Log In</button>
+                    <a href="#">Forgot your password?</a>
+                </form>
+            </div>
+
+            <hr>
+
+            <div class="last">
+                <span>Don't have an account?</span>
+                <a href="signup.html">Sign up for Vybez</a>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        let eyeIcon = document.getElementById("eyeIcon");
+        let password = document.getElementById("password");
+
+        eyeIcon.onclick = function(){
+            if(password.type == "password"){
+                password.type = "text";
+                eyeIcon.src = "images/logo/eye1.png"
+            }else{
+                password.type = "password";
+                eyeIcon.src = "images/logo/eye.png"
+            }
+        }
+    </script>
+
+</body>
+
+</html>

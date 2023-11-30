@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --primary: #36e2ec;
+}
+
+header nav a{
+    text-decoration: none;
+    /* outline: none; */
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background: linear-gradient(90deg,
+                                rgba(243, 243, 247, 0.7),
+                                rgba(130, 130, 155, 0.7),
+                                rgba(97, 97, 102, 0.7)),
+                                url(anirudh/a2.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 6px;
+}
+
+.container h1{
+    color: #fff;
+    font-size: 5rem;
+    margin-left:20px;
+    margin-top: 196px;
+}
+
+section .ani-icons{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+section .ani-icons i{
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+section button{
+    border: 1px solid #fff;
+    font-weight: 600;
+    padding: 6px 17px;
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+section .ani-icons .buttons{
+    margin-top: 20px;
+}
+
+section button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 1px 1px #fff;
+}
+
+
+
+
+
+/* .gradient{
+    width: 100%;
+    height: 400px;
+    background-image: 
+        linear-gradient(45deg,#ddd,red);
+    opacity: 0.5;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.container img{
+    width: 100%;
+    height: 400px;
+    object-fit:cover;
+    display: block;
+} */
+
+/* section .pimg1{
+    min-height: 400px;
+    background-image: linear-gradient(
+        45deg,
+        rgba(195, 198, 198,0.6),
+        rgba(15, 16, 16,0.7)
+    ),
+     url(anirudh/a1.jpg) center center fixed;
+    background-size: cover;
+} */
+
+/* section .Popular-songs::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(90deg,#f0f3f3,#0e0f0f),url(anirudh/64abc1f3e611a45afb5a8d14afe7cf90.jpg);
+    background-repeat: no-repeat;
+} */
+
+
+section .menuSong h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.menuSong{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #fff; */
+    margin-top: 10px;
+}
+
+.menuSong li{
+    list-style: none;
+    position: relative;
+    padding: 5px 0px 5px 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-bottom: 10px;
+    /* cursor: pointer; */
+    display: none;
+}
+
+.menuSong li:nth-child(1),
+.menuSong li:nth-child(2),
+.menuSong li:nth-child(3),
+.menuSong li:nth-child(4),
+.menuSong li:nth-child(5),
+.menuSong li:nth-child(6){
+    display:flex;
+}
+
+.menuSong li:hover{
+    background: rgba(105,105,105,0.3);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.8);
+    color: #fff;
+}
+
+
+.menuSong li span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #858c9e;
+}
+
+.menuSong li img{
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.menuSong li i{
+    position: absolute;
+    opacity: 0;
+    /* transition: all ease 0.3s; */
+}
+
+.menuSong li:hover i{
+    opacity: 1;
+}
+
+.menuSong li h5{
+    font-size: 14px;
+    margin-left: 15px;
+    color: #fff;
+    font-weight: 500;
+    width: 420px;
+    /* border: 1px solid #fff; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.menuSong li h5 .listener{
+    position: absolute;
+    right: 850px;
+}
+
+.menuSong li .fa-heart{
+    font-size: 18px;
+    position: absolute;
+    top: 11px;
+    right: 450px;
+    /* font-weight: 500; */
+}
+
+.menuSong li h5 .timestamp{
+    position: absolute;
+    right: 400px;
+}
+
+.menuSong #load-more{
+    margin-top: 10px;
+    /* margin-bottom: 40px; */
+    border: none;
+    color: #666;
+}
+
+.menuSong #load-more:hover{
+    text-decoration: underline;
+    color: #fff;
+}

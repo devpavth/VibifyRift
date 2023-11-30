@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Online - Listen to Latest Mp3 Songs</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anirudh.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li class="logo">Vybez Music</li></a>
+            </ul>
+            <div class="s-icon">
+                <div class="fas fa-search" id="s-btn"></div>
+            </div>
+            <div class="search">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search Songs">
+                <div class="search-results">
+                    <!-- <a href="" class="card">
+                        <img src="img/1.jpg" alt="">
+                        <div class="search-content">
+                            Naa Ready (From "Leo")
+                            <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar</div>
+                        </div>
+                    </a>  -->
+                          
+                </div>
+            </div>
+            <div class="login-user">
+                <a href="signup.html"><li>Sign up</li></a>
+                <a href="login.html"><button type="login-btn">Login</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <h1>Anirudh Ravichander</h1>
+        </div>
+        <div class="ani-icons">
+            <i class="fa-solid fa-circle-play" style="color: #00ffff;" id="allPlaylist"></i>
+            <button class="buttons">Follow</button>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="menuSong">
+            <h4>Popular</h4>
+            <li class="songItem">
+                <span>1</span>
+                <img src="img/anirudh/4.jpg" alt="">
+                <i class="fa-sharp playlistPlay fa-solid fa-play" id="4"></i>
+                <h5>Hukum - Thalaivar Alappara
+                    <span class="listener">97,899,820</span>
+                    <span class="timestamp">3:27</span>
+                </h5>
+                <i onclick="likeShapeBtn()" class="fa-regular fa-heart" id="heart-list"></i>
+            </li>
+            <li class="songItem">
+                <span>2</span>
+                <img src="img/anirudh/5.jpg" alt="">
+                <i class="fa-sharp playlistPlay fa-solid fa-play" id="5"></i>
+                <h5>Yaanji
+                    <span class="listener">98,885,986</span>
+                    <span class="timestamp">4:30</span>
+                </h5>
+                <i onclick="likeBtn()" class="fa-regular fa-heart" id="heart-list"></i>
+            </li>
+            <li class="songItem">
+                <span>3</span>
+                <img src="img/anirudh/6.jpg" alt="">
+                <i class="fa-sharp playlistPlay fa-solid fa-play" id="6"></i>
+                <h5>Porkanda Singam
+                    <span class="listener">23,456,055</span>
+                    <span class="timestamp">3:18</span>
+                </h5>
+                <i onclick="likeBtn()" class="fa-regular fa-heart" id="heart-list"></i>
+            </li>
+            <li class="songItem">
+                <span>4</span>
+                <img src="img/anirudh/7.jpg" alt="">
+                <i class="fa-sharp playlistPlay fa-solid fa-play" id="7"></i>
+                <h5>Dippam Dappam
+                    <span class="listener"> 99,957,427</span>
+                    <span class="timestamp">3:29</span>
+                </h5>
+                <i onclick="likeBtn()" class="fa-regular fa-heart" id="heart-list"></i>
+            </li>
+            <li class="songItem">
+                <span>5</span>
+                <img src="img/anirudh/8.jpg" alt="">
+                <i class="fa-sharp playlistPlay fa-solid fa-play" id="8"></i>
+                <h5>Naanum Rowdy Dhaan
+                    <span class="listener">4,615,152</span>
+                    <span class="timestamp">2:57</span>
+                </h5>
+                <i onclick="likeBtn()" class="fa-regular fa-heart" id="heart-list"></i>
+            </li>
+            <li class="songItem">
+                <span>6</span>
+                <img src="img/anirudh/9.jpg" alt="">
+                <i class="fa-sharp playlistPlay fa-solid fa-play" id="9"></i>
+                <h5>Vaathi Raid
+                    <span class="listener">32,200,723</span>
+                    <span class="timestamp">3:29</span>
+                </h5>
+                <i onclick="likeBtn()" class="fa-regular fa-heart" id="heart-list"></i>
+            </li>
+            <li class="songItem">
+                <span>7</span>
+                <img src="img/anirudh/10.jpg" alt="">
+                <i class="fa-sharp playlistPlay fa-solid fa-play" id="10"></i>
+                <h5>Don'u Don'u Don'u (The Don's Romance)
+                    <span class="listener">41,356,152</span>
+                    <span class="timestamp">3:15</span>
+                </h5>
+                <i onclick="likeBtn()" class="fa-regular fa-heart" id="heart-list"></i>
+            </li>
+            <li class="songItem">
+                <span>8</span>
+                <img src="img/anirudh/11.jpg" alt="">
+                <i class="fa-sharp playlistPlay fa-solid fa-play" id="11"></i>
+                <h5>Tamilselvi
+                    <span class="listener">11,442,794</span>
+                    <span class="timestamp">3:50</span>
+                </h5>
+                <i onclick="likeBtn()" class="fa-regular fa-heart" id="heart-list"></i>
+            </li>
+            <li class="songItem">
+                <span>9</span>
+                <img src="img/anirudh/12.jpg" alt="">
+                <i class="fa-sharp playlistPlay fa-solid fa-play" id="12"></i>
+                <h5>Kadhal Kan Kattudhe
+                    <span class="listener">8,002,152</span>
+                    <span class="timestamp">4:16</span>
+                </h5>
+                <i onclick="likeBtn()" class="fa-regular fa-heart" id="heart-list"></i>
+            </li>
+            <li class="songItem">
+                <span>10</span>
+                <img src="img/anirudh/13.jpg" alt="">
+                <i class="fa-sharp playlistPlay fa-solid fa-play" id="13"></i>
+                <h5>Enakenna Yaarum Illaye (From "Aakko")
+                    <span class="listener">26,711,532</span>
+                    <span class="timestamp">4:20</span>
+                </h5>
+                <i onclick="likeBtn()" class="fa-regular fa-heart" id="heart-list"></i>
+            </li>
+            <button id="load-more" class="buttons">See more</button>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="Popular-songs">
+            <div class="heading">
+                <h4>Trending Songs</h4>
+                <div class="even-more">
+                    <button>Show all</button>
+                </div>
+            </div>
+            <div class="pop-song">
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/FyvYfv9aUAYxLkZ.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="1"></i>
+                    </div>
+                    <h5>Naa Ready (From "Leo") <br>
+                        <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar - Naa Ready (From "Leo")</div>
+                    </h5>
+                </li>
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/p3-ordinary-person.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="2"></i>
+                    </div>
+                    <h5>Naa Ready (From "Leo") <br>
+                        <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar</div>
+                    </h5>
+                </li>
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/p4-hayyoda.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="3"></i>
+                    </div>
+                    <h5>Naa Ready (From "Leo") <br>
+                        <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar - Naa Ready (From "Leo")</div>
+                    </h5>
+                </li>
+                <!-- <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/p5-nee-singam.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="4"></i>
+                    </div>
+                    <h5>Naa Ready (From "Leo") <br>
+                        <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar - Naa Ready (From "Leo")</div>
+                    </h5>
+                </li>
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/p2-unakaga.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="5"></i>
+                    </div>
+                    <h5>Naa Ready (From "Leo") <br>
+                        <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar - Naa Ready (From "Leo")</div>
+                    </h5>
+                </li>
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/p1-aga-naga.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="6"></i>
+                    </div>
+                    <h5>Naa Ready (From "Leo") <br>
+                        <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar - Naa Ready (From "Leo")</div>
+                    </h5>
+                </li>
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/p1-aga-naga.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="7"></i>
+                    </div>
+                    <h5>Naa Ready (From "Leo") <br>
+                        <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar - Naa Ready (From "Leo")</div>
+                    </h5>
+                </li> -->
+            </div>
+        </div>
+
+
+        <!-- <br>
+        <div class="Popular-songs">
+            <div class="heading">
+                <h4>NCS Songs</h4>
+                <div class="even-more">
+                    <button>More</button>
+                </div>
+            </div>
+            <div class="pop-song">
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/FyvYfv9aUAYxLkZ.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="8"></i>
+                    </div>
+                    <h5>Naa Ready (From "Leo") <br>
+                        <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar - Naa Ready (From "Leo")</div>
+                    </h5>
+                </li>
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/FyvYfv9aUAYxLkZ.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="9"></i>
+                    </div>
+                    <h5>Naa Ready (From "Leo") <br>
+                        <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar</div>
+                    </h5>
+                </li>
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/FyvYfv9aUAYxLkZ.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="10"></i>
+                    </div>
+                    <h5>Naa Ready (From "Leo") <br>
+                        <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar</div>
+                    </h5>
+                </li>
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/FyvYfv9aUAYxLkZ.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="11"></i>
+                    </div>
+                    <h5>Naa Ready (From "Leo") <br>
+                        <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar</div>
+                    </h5>
+                </li>
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/FyvYfv9aUAYxLkZ.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="12"></i>
+                    </div>
+                    <h5>Naa Ready (From "Leo") <br>
+                        <div class="subtitle">Anirudh Ravichander, Thalapathy Vijay, Asal Kolaar</div>
+                    </h5>
+                </li>
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/FyvYfv9aUAYxLkZ.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="13"></i>
+                    </div>
+                    <h5> <br>
+                        <div class="subtitle"></div>
+                    </h5>
+                </li>
+                <li class="songList"> 
+                    <div class="imgPlay">
+                        <img src="img/FyvYfv9aUAYxLkZ.jpg" alt="">
+                        <i class="fa-solid playlistPlay fa-circle-play" style="color: #00ffff;" id="14"></i>
+                    </div>
+                    <h5> <br>
+                        <div class="subtitle"></div>
+                    </h5>
+                </li>
+            </div>
+        </div> -->
+
+
+        <div class="popularArtists">
+            <div class="heading">
+                <h4>Fans also like</h4>
+                <div class="even-more">
+                    <button>Show all</button>
+                </div>
+            </div>
+            <div class="Singers">
+                <li>
+                    <img src="composer/ncs-release.jpg" alt="">
+                    <span><h4>No Copyright Songs</h4></span>
+                    <span><h5>Artist</h5></span>
+                </li>
+                <li>
+                    <img src="composer/rahman.jpg" alt="">
+                    <span><h4>A.R. Rahman</h4></span>
+                    <span><h5>Artist</h5></span>
+                </li>
+                <li>
+                    <img src="composer/Arijit-Singh.jpg" alt="">
+                    <span><h4>Arijit Singh</h4></span>
+                    <span><h5>Artist</h5></span>
+                </li>
+            </div>
+        </div>
+    </section><br><br>
+
+
+    <footer>
+        <div class="web-links-container">
+            <div class="webLinks">
+                <div class="company">
+                    <h5>Company</h5>
+                    <a href="#">About</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">For the Record</a>
+                </div>
+
+                <div class="communities">
+                    <h5>Communities</h5>
+                    <a href="#">For Artists</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Investors</a>
+                    <a href="#">Vendors</a>
+                </div>
+
+                <div class="Useful links">
+                    <h5>Useful links</h5>
+                    <a href="#">Support</a>
+                    <a href="#">Free Mobile App</a>
+                </div>
+            </div>
+        </div>
+        <div class="socialLinks">
+            <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+        </div>
+
+        <hr>
+
+        <div class="belowLinks">
+            <div class="otherLinks">
+                <a href="#">Legal</a>
+                <a href="#">Privacy Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">About Ads</a>
+                <a href="#">Accessibility</a>
+            </div>
+
+            <div class="copyright">
+                <p><i class="fa fa-copyright"><span>2023 Vybez AB</span></i></p>
+            </div>
+        </div>
+    </footer>
+    <br><br>
+
+    
+    <div class="bottom">
+        <img src="img/FyvYfv9aUAYxLkZ.jpg" alt="" id="underPoster">
+        <h5 id="bottomHeading">-------------------- <br>
+            <div class="subtitle">----------------------------------------</div>
+        </h5>
+        <i onclick="likeBtn()" class="fa-regular fa-heart" id="heart-icon"></i>
+        <div class="xIcons">
+            <div class="icons">
+                <i id="repeat-plist" class="material-icons md-26 md-light" title="Playlist looped">repeat</i>
+                <i id="prev" class="fa-sharp fa-solid fa-backward-step" style="color: #c7c6c6;"></i>
+                <i class="fa-solid fa-circle-play" style="color: #00ffff;" id="mzPlay"></i>
+                <!-- <i class="fa-solid fa-circle-pause" style="color: #00ffff;"></i> -->
+                <i id="next" class="fa-sharp fa-solid fa-forward-step" style="color: #c7c6c6;"></i>
+                <i id="more-music" class="material-icons md-26 md-light">queue_music</i>
+            </div>
+            <div class="progress-area">
+                <div class="progress-bar">
+                </div>
+                <div class="timer">
+                    <span class="startTime">0:00</span>
+                    <span class="endTime"></span>
+                </div>
+            </div>
+            <!-- <div class="inputBox">
+                <input type="range" name="range" id="myProgressBar" min="0" max="100">
+            </div>
+            <span id="startTime">0.00</span>
+            <span id="endTime">4.08</span> -->
+        </div>
+        <!-- <span class="volume-icon"><i class="fa-solid fa-volume-high" style="color: #c7c6c6;"></i></span>
+        <div class="vol">
+            <div class="vol-bar">
+            </div>
+        </div> -->
+        <div class="volume-slider">
+            <div class="volume-icon">
+                <span>
+                    <i class="fa-solid fa-volume-low" style="color: #c7c6c6;"></i>
+                </span>
+            </div>
+            <div class="range-slider">
+                <input type="range" min="0" max="100" value="50" class="slider">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+    <section class="wrapper">
+        <div class="music-list">
+            <div class="music-list-header">
+                <div class="row">
+                    <i class="material-icons md-26 blue600">audiotrack</i>
+                    <span>Playlist</span>
+                </div>
+                <i id="close" class="material-icons md-26 md-light">close</i>
+            </div>
+            <ul>
+                <li class="queueSong"> 
+                    <i class="material-icons md-17 md-dark">music_note</i>
+                    <img src="img/123.jpg" alt="">
+                    <i class="fa-sharp playlistPlay fa-solid fa-play" style="color: #fff;" id="4"></i>
+                    <h5> <br>
+                        <div class="subtitle"></div>
+                    </h5>
+                    <span class="audio-duration">3:27</span>
+                </li>
+
+                <li class="queueSong"> 
+                    <i class="material-icons md-17 md-dark">music_note</i>
+                    <img src="img/123.jpg" alt="">
+                    <i class="fa-sharp playlistPlay fa-solid fa-play" style="color: #fff;" id="5"></i>
+                    <h5> <br>
+                        <div class="subtitle"></div>
+                    </h5>
+                    <span class="audio-duration">4:30</span>
+                </li>
+
+                <li class="queueSong"> 
+                    <i class="material-icons md-17 md-dark">music_note</i>
+                    <img src="img/123.jpg" alt="">
+                    <i class="fa-sharp playlistPlay fa-solid fa-play" style="color: #fff;" id="6"></i>
+                    <h5> <br>
+                        <div class="subtitle"></div>
+                    </h5>
+                    <span class="audio-duration">3:18</span>
+                </li>
+
+                <li class="queueSong"> 
+                    <i class="material-icons md-17 md-dark">music_note</i>
+                    <img src="img/123.jpg" alt="">
+                    <i class="fa-sharp playlistPlay fa-solid fa-play" style="color: #fff;" id="7"></i>
+                    <h5> <br>
+                        <div class="subtitle"></div>
+                    </h5>
+                    <span class="audio-duration">3:29</span>
+                </li>
+
+                <li class="queueSong"> 
+                    <i class="material-icons md-17 md-dark">music_note</i>
+                    <img src="img/123.jpg" alt="">
+                    <i class="fa-sharp playlistPlay fa-solid fa-play" style="color: #fff;" id="8"></i>
+                    <h5> <br>
+                        <div class="subtitle"></div>
+                    </h5>
+                    <span class="audio-duration">2:57</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/ea0f9c99f3.js" crossorigin="anonymous"></script>
+    <script src="anirudh.js"></script>
+</body>
+</html>
