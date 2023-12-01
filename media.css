@@ -384,14 +384,16 @@
         margin-right: -13rem;
     }
     .belowLinks .otherLinks{
-        margin-left: -13.8rem;
-        word-wrap: break-word;
+        /* margin-left: -1.8rem; */
+        /* margin-right: 7.8rem; */
+        display: none;
+        /* word-wrap: break-word; */
     }
     .copyright p{
-        margin-top: 40px;
-        margin-left: -28rem;
-        margin-right: 24.6rem;
-        word-wrap: break-word;
+        margin-top: 5px;
+        margin-left: -21rem;
+        margin-right: 13rem;
+        /* word-wrap: break-word; */
         margin-bottom: 30px;
     }
     .xIcons{
@@ -492,8 +494,7 @@
         min-height: 450px;
     }
     .menuSong li h5 .listener{
-        position: absolute;
-        right: -100px;
+        display: none;
     }
     .menuSong li h5 .timestamp{
         position: absolute;
