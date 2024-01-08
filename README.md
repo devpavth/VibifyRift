@@ -1,2 +1,2 @@
 # simple-wynk-music-clone
-this is a simple website
+this is a simple music website
