@@ -20,10 +20,10 @@
         margin: 1rem 1rem;
     }
     section .Popular-songs .pop-song li{
-        min-width: 190px;
+        min-width: 182px;
     }
     section .popularArtists .Singers li{
-        min-width: 190px;
+        min-width: 182px;
     }
     .webLinks{
         margin-left: -33rem;
