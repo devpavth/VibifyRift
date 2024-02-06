@@ -441,10 +441,10 @@
         margin: 1rem 0.7rem;
     }
     section .Popular-songs .pop-song li{
-        min-width: 190px;
+        min-width: 180px;
     }
     section .popularArtists .Singers li{
-        min-width: 190px;
+        min-width: 180px;
     }
     .webLinks{
         display: flex;
