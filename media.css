@@ -1,6 +1,92 @@
 
 
 
+
+@media (max-width:1600px){
+    header nav ul li{
+        font-size: 1.5rem;
+        margin-left: 4rem;
+    }
+    header nav .search{
+        width: 22%;
+        margin-right: -26rem;
+    }
+    header nav .login-user a li{
+        margin-left: 2rem;
+    }
+    .bottom img{
+        width: 3rem;
+        height: 3rem;
+        margin: 1rem 1rem;
+    }
+    section .Popular-songs .pop-song li{
+        min-width: 190px;
+    }
+    section .popularArtists .Singers li{
+        min-width: 190px;
+    }
+    .webLinks{
+        margin-left: -33rem;
+    }
+    footer hr{
+        width: 118%;
+        margin-top: 1.5rem;
+        margin-right: -20rem;
+    }
+    .belowLinks .otherLinks{
+        margin-left: -84rem;
+    }
+    .copyright p{
+        margin-left: 47rem;
+    }
+    .xIcons{
+        position: fixed;
+        margin-left: 24rem;
+    }
+    .bottom .xIcons .icons{
+        margin-left: 18rem;
+        margin-bottom: 15px;
+    }
+    .progress-area{
+        width: 130%;
+        margin-left: 80px;
+        margin-bottom: 11px;
+    }
+    .volume-slider{
+        margin-right: 11rem;
+    }
+    .bottom h5{
+        width: 105px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .bottom h5 .subtitle{
+        width: 105px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    /* ----------------anirudh html page---------------------- */
+    .menuSong li h5 .listener{
+        position: absolute;
+        right: 330px;
+    }
+    .menuSong li h5 .timestamp{
+        position: absolute;
+        right: 50px;
+    }
+    .menuSong li .fa-heart{
+        position: absolute;
+        top: 11px;
+        right: 100px;
+    }
+}
+
+
+
+
+
 @media (max-width:1200px){
     header nav ul li{
         font-size: 1.5rem;
