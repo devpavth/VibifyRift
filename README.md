@@ -8,10 +8,10 @@
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
+<!--  [Screenshots](#screenshots) -->
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+<!-- [License](#license) -->
+<!-- [Contact](#contact)-->
 
 ## Features
 
