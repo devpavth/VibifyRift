@@ -51,18 +51,19 @@ Since VibifyRift is a static website, there's no need for a server-side setup. Y
 - Use the shuffle, repeat, and next song controls.
 - Adjust volume or mute using the audio controls.
 
-## Screenshots
+<!-- ## Screenshots
 
 ![Homepage](path/to/homepage-screenshot.png)
 *Description of the homepage*
 
 ![Music Player](path/to/music-player-screenshot.png)
-*Description of the music player feature*
+*Description of the music player feature*  -->
 
 ## Contributing
 
 Contributions are welcome! Please fork this repository and submit pull requests.
 
-## Contact
+Please ensure your code follows the project's coding standards and includes appropriate tests.
 
-For any inquiries or feedback, please reach out to me at paviguna116@gmail.com.
+If you have any questions or need help, feel free to open an issue or contact the repository maintainers.
+
