@@ -25,7 +25,7 @@
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Icons:** FontAwesome (if used)
+- **Icons:** FontAwesome 
 
 ## Installation
 
@@ -33,7 +33,7 @@ Since VibifyRift is a static website, there's no need for a server-side setup. Y
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/VibifyRift.git
+    git clone https://github.com/devpavth/VibifyRift.git
     cd VibifyRift
     ```
 
@@ -63,10 +63,6 @@ Since VibifyRift is a static website, there's no need for a server-side setup. Y
 
 Contributions are welcome! Please fork this repository and submit pull requests.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For any inquiries or feedback, please reach out to me at [your-email@example.com].
+For any inquiries or feedback, please reach out to me at paviguna116@gmail.com.
